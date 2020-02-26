@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="front/css/">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Formulario</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </nav>
+    </header>
+
+    <main class="conteiner">
+        <form id="checkout" class="row ml-1 mt-3 mr-1">
+            <div class="col-md-4">
+                <header class="bg-dark text-light p-2">
+                    Dados
+                </header>
+                <div class="p-2">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="crm">CRM do Médico</label>
+                            <input class="form-control" type="number" id="crm" name="crm"
+                                placeholder="Digite o CRM do médico">
+                        </div>
+                        <div class="form-group">
+                            <label for="NomeMedico">Nome do Médico:</label>
+                            <input class="form-control" type="text" id="nomeMedico" name="nomeMedico"
+                                placeholder="Digite o nome do médico">
+                        </div>
+                        <div class="form-group">
+                            <label for="dataReceita">Data da Receita:</label>
+                            <input class="form-control" type="date" id="dataReceita" name="dataReceita"
+                                placeholder="Selecione a data da receita">
+                        </div>
+                        <div class="form-group">
+                            <label for="qtdCaixas">Quantidade de Caixas </label>
+                            <input class="form-control" type="number" id="qtdCaixas" name="qtdCaixas"
+                                placeholder="Digite a quantidade de caixas">
+                        </div>
+                        <div class="form-group">
+                            <label for="nomePaciente">Nome do Paciente</label>
+                            <input class="form-control" type="text" id="nomePaciente" name="nomePaciente"
+                                placeholder="Digite o nome do paciente">
+                        </div>
+                        <div class="form-group">
+                            <label for="cpfPaciente">CPF do Paciente</label>
+                            <input class="form-control" type="text" id="cpfPaciente" name="cpfPaciente"
+                                placeholder="Digite o CPF do paciente">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <header class="bg-dark text-light p-2">
+                    Dados
+                </header>
+                <div class="p-2">
+                    <div class="form-group">
+                        <label for="dtaNascimento">Data de Nascimento do Paciente:</label>
+                        <input class="form-control" type="date" id="dtaNascimento" name="dtaNascimento"
+                            placeholder="Selecione a data de nascimento do paciente">
+                    </div>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="male">Masculino</label><br>
+                    <input type="radio" id="feminino" name="genero" value="masculino">
+                    <label for="female">Feminino</label><br>
+                    <input type="radio" id="outro" name="genero" value="outro">
+                    <label for="outro">Não quero me identificar</label>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="tipoDeEnvio">Tipo de Envio</label>
+                    <select id="tipoDeEnvio" class="form-control">
+                      <option selected>Selecione</option>
+                      <option>Anexar arquivo</option>
+                      <option>WhatsApp</option>
+                      <option>E-mail</option>
+                    </select>
+                  </div>
+            </div>
+            </div>
+
+
+
+
+
+            <footer>
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                    crossorigin="anonymous">
+                    </script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                    crossorigin="anonymous">
+                    </script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                    crossorigin="anonymous">
+                    </script>
+                <script src="C:\Users\Treinamento\Desktop\Exercicios26.02\front\js/script.js"></script>
+            </footer>
+</body>
+
+</html>
